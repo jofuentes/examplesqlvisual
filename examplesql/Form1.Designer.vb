@@ -22,6 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.TB_Server = New System.Windows.Forms.TextBox()
         Me.TB_Database = New System.Windows.Forms.TextBox()
         Me.TB_Password = New System.Windows.Forms.TextBox()
@@ -31,6 +32,13 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.DGV1 = New System.Windows.Forms.DataGridView()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.QueryDGV = New System.Windows.Forms.Button()
+        Me.BS1 = New System.Windows.Forms.BindingSource(Me.components)
+        CType(Me.DGV1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.BS1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TB_Server
@@ -39,6 +47,7 @@ Partial Class Form1
         Me.TB_Server.Name = "TB_Server"
         Me.TB_Server.Size = New System.Drawing.Size(232, 20)
         Me.TB_Server.TabIndex = 0
+        Me.TB_Server.Text = "91df094b8410.sn.mynetname.net"
         '
         'TB_Database
         '
@@ -46,6 +55,7 @@ Partial Class Form1
         Me.TB_Database.Name = "TB_Database"
         Me.TB_Database.Size = New System.Drawing.Size(232, 20)
         Me.TB_Database.TabIndex = 1
+        Me.TB_Database.Text = "Prospectos"
         '
         'TB_Password
         '
@@ -53,6 +63,8 @@ Partial Class Form1
         Me.TB_Password.Name = "TB_Password"
         Me.TB_Password.Size = New System.Drawing.Size(232, 20)
         Me.TB_Password.TabIndex = 2
+        Me.TB_Password.Text = "Coloco.71"
+        Me.TB_Password.UseSystemPasswordChar = True
         '
         'TB_User
         '
@@ -60,6 +72,7 @@ Partial Class Form1
         Me.TB_User.Name = "TB_User"
         Me.TB_User.Size = New System.Drawing.Size(232, 20)
         Me.TB_User.TabIndex = 3
+        Me.TB_User.Text = "Jofuentes"
         '
         'Label1
         '
@@ -99,18 +112,48 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(224, 125)
+        Me.Button1.Location = New System.Drawing.Point(224, 127)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Connect"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'DGV1
+        '
+        Me.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGV1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGV1.Location = New System.Drawing.Point(3, 16)
+        Me.DGV1.Name = "DGV1"
+        Me.DGV1.Size = New System.Drawing.Size(625, 158)
+        Me.DGV1.TabIndex = 9
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.DGV1)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 178)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(631, 177)
+        Me.GroupBox1.TabIndex = 10
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Data Grid View Example"
+        '
+        'QueryDGV
+        '
+        Me.QueryDGV.Location = New System.Drawing.Point(15, 361)
+        Me.QueryDGV.Name = "QueryDGV"
+        Me.QueryDGV.Size = New System.Drawing.Size(75, 23)
+        Me.QueryDGV.TabIndex = 11
+        Me.QueryDGV.Text = "Consultar"
+        Me.QueryDGV.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(865, 465)
+        Me.Controls.Add(Me.QueryDGV)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -122,6 +165,9 @@ Partial Class Form1
         Me.Controls.Add(Me.TB_Server)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(Me.DGV1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        CType(Me.BS1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -136,4 +182,8 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents DGV1 As DataGridView
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents QueryDGV As Button
+    Friend WithEvents BS1 As BindingSource
 End Class

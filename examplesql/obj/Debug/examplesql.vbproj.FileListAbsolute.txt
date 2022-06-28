@@ -1,0 +1,13 @@
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.vbproj.AssemblyReference.cache
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.Form1.resources
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.Resources.resources
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.vbproj.GenerateResource.cache
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.vbproj.CoreCompileInputs.cache
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\bin\Debug\examplesql.exe.config
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\bin\Debug\examplesql.exe
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\bin\Debug\examplesql.pdb
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\bin\Debug\examplesql.xml
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.exe
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.xml
+C:\Users\Itech\Documents\GitHub\examplesqlvisual\examplesql\obj\Debug\examplesql.pdb
